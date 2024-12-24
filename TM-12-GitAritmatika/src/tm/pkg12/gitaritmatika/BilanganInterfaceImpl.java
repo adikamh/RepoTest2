@@ -27,6 +27,7 @@ public class BilanganInterfaceImpl implements BilanganInterface{
 
     @Override
     public double div(Bilangan bilangan) {
-        throw new UnsupportedOperationException("Not supported yet.");    }
+        return bilangan.getBilangan1() / bilangan.getBilangan2();
+    }
     
 }
