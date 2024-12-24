@@ -17,7 +17,7 @@ public class BilanganInterfaceImpl implements BilanganInterface{
 
     @Override
     public double sub(Bilangan bilangan) {
-        throw new UnsupportedClassVersionError("Not support yet.");
+        return bilangan.getBilangan1() - bilangan.getBilangan2();
     }
 
     @Override
